@@ -1,5 +1,8 @@
 # Cria um caminho temporário para o loader
+
 $temp = [System.IO.Path]::GetTempFileName() + ".py"
+
+echo $temp
 
 # Baixa o loader do GitHub diretamente para esse arquivo temporário
 irm https://raw.githubusercontent.com/EzequielS4ntos/util-commands/main/loader.py -OutFile $temp
