@@ -1,2 +1,1 @@
 print('bem vindo')
-input()
