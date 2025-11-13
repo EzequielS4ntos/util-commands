@@ -8,5 +8,4 @@ while True:
     indice = 0
 
     for params in command:
-        if params == 'teste':
-            oi(command[indice + 1])
+        print(params)
