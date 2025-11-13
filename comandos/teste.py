@@ -1,2 +1,2 @@
-def oi():
-    print("Oi, executei a função oi!")
+def oi(dale):
+    print(f"Oi, executei a função oi! {dale}")
