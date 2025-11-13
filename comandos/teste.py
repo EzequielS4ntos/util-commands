@@ -1,2 +1,2 @@
 def oi():
-    print('deu certo')
+    print("Oi, executei a função oi!")
