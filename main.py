@@ -1,9 +1,10 @@
 from comandos.teste import oi
 
 while True:
-    command = input('Digite um comando: ')
+    command = input('Digite um comando: ').split(' ')
 
-    if command == 'deu':
-        oi('teste')
-    if command == 'sair':
-        break
+    indice = 0
+
+    for params in command:
+        if params == 'deu':
+            oi(command[indice + 1])
