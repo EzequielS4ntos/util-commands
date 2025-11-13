@@ -1,2 +1,2 @@
 print('bem vindo')
-print()
+input()
