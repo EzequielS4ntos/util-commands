@@ -25,8 +25,9 @@ digite(msg2)
 
 sleep(2)
 
+os.system('cls')
+
 while True:
-    os.system('cls')
     command = input('> ')
 
     if command == 'hello':
