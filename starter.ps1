@@ -13,4 +13,4 @@ Invoke-RestMethod $app_url -OutFile $zip_dir
 # Extrai o zip para o path de destino
 Expand-Archive -Path $zip_dir -DestinationPath $app_dir -Force
 
-python "$app_dir\util-commands-main\main.py"
+python "$app_dir\util-commands-heads-main\main.py"
